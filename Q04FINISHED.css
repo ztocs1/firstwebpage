@@ -1,4 +1,4 @@
-/* Add code here */
+
 *{
 	margin:0px;
 	padding:0px;
@@ -86,9 +86,7 @@ footer{
 }
 
 @media only screen and (max-width: 600px) {
- /* Responsive breakpoint - targets devices that have a minimum width of 600px and applies these styles */
 
- /*   Add code here for 600px and above */
 
 .header{
 	flex-direction:row-reverse;
@@ -131,9 +129,7 @@ footer{
 
 
 @media only screen and (min-width: 600px) {
- /* Responsive breakpoint - targets devices that have a minimum width of 600px and applies these styles */
 
- /*   Add code here for 600px and above */
 
 
 
