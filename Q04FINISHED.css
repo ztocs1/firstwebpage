@@ -1,0 +1,153 @@
+/* Add code here */
+*{
+	margin:0px;
+	padding:0px;
+	font-family:"Trebuchet MS";
+}
+header{
+	background-color:black;
+	color:white;
+	padding:20px;
+	font-size:1.3em;
+}
+.head{
+	display:flex;
+	justify-content:space-between;
+}
+.logo{
+	width:3.5em;
+	height:90%;
+}
+nav{
+	padding:10px;
+	margin-top:10px;
+}
+.nav{
+	background-color:grey;
+	padding:10px;
+	text-decoration:none;
+	color:white;
+}
+.topic{
+	margin-top:3rem;
+	border:3px solid;
+	border-left:0;
+	border-right:0;
+	margin-left:20px;
+	margin-right:20px;
+	text-align:center;
+	font-size:3em;
+}
+article{
+	margin-left:15px;
+	margin-right:15px;
+	margin-bottom:20px;
+	overflow-y:auto;
+}
+.lauren{
+	max-width:300px;
+	width:230px;
+	border:3px solid black;
+	float:left;
+	margin-right:10px;
+	overflow:auto;
+}
+.stefano{
+	max-width:300px;
+	width:230px;
+	border:3px solid black;
+	float:right;
+	margin-left:10px;
+	overflow:auto;
+}
+.lauren{
+	content:"";
+	clear:both;
+	display: table;
+}
+.stefano{
+	content:"";
+	clear:both;
+	display:table;
+}
+.text{
+	font-size:1.2em;
+}
+h2{
+	font-size:1.8em;
+	margin-bottom: 30px;
+}
+footer{
+	background-color:black;
+	color:white;
+	padding:10px;
+	font-size:1.3rem;
+	text-align:center;
+}
+
+@media only screen and (max-width: 600px) {
+ /* Responsive breakpoint - targets devices that have a minimum width of 600px and applies these styles */
+
+ /*   Add code here for 600px and above */
+
+.header{
+	flex-direction:row-reverse;
+	justify-content:left;
+}
+.logo{
+	margin-left:30px;
+	margin-right:40px;
+}
+.navlink{
+	padding:0.8rem;
+}
+.stefano, .lauren{
+	float:none;
+	margin:auto;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+ /* Responsive breakpoint - targets devices that have a minimum width of 600px and applies these styles */
+
+ /*   Add code here for 600px and above */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
